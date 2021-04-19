@@ -1,12 +1,62 @@
-h1 {
-    color: red;
+/* nav { 
+    background-color: rgb (51, 51, 51); 
   }
-body{
-    background: gold;
+
+.hero-image { 
+    width: 100%;
 }
-#firstid{
-    background: green;
+li:first-child {
+    color: green;
 }
-.firstclass{
-    background: greenyellow;
+div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 5px solid magenta;
+  }
+#rock-songs {
+    background-color: orange;
+    border: 10px solid blue;
+}
+.panel #rock-songs {
+    background-color: gray;
+}
+  
+#rock-songs {
+    background-color: orange;
+    border: 10px solid blue;
+}
+div {
+    width: 200px;
+    height: 200px;
+    background-color: red !important;
+    border: 5px solid magenta;
+}
+
+span {
+    height: 50px;
+    width: 50px;
+    background-color: #8e44ad;
+}
+span {
+    height: 50px;
+    width: 50px;
+    background-color: #8e44ad;
+    display: inline-block;
+} */
+.span1 {
+    width: 50px;
+    height: 50px;
+    background-color: cyan;
+    border: chartreuse;
+    box-shadow: crimson;
+    display: inline-block;
+}
+.span2 {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border: blueviolet;
+    box-shadow: coral;
+    display: inline-block;
 }
