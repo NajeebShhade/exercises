@@ -49,3 +49,43 @@ if (isCareful){
     console.log(numChildren)
 }else
 console.log(numChildren)
+let infoAboutTesla = ["Tesla", 5000, true, "best"]
+const plants = ["Oak", "Lilly", "Belladonna", "Tulip", "Yew"]
+console.log(plants.length) // prints 5
+
+let lastIndex = plants.length - 1 // equal to (5 - 1) = 4
+console.log(plants[lastIndex]) // prints "Yew"
+console.log(plants[4])
+console.log("The first plant is " + plants[0] + " and the last plant is " + plants[plants.length - 1])
+companies.push("Fox Entertainment", "Marvel Studios", "Rolex");
+let employees = ["DeMarcus", "Kai", "Christina"]
+let candidates = ["Tiffany", "Elana", "Carl"]
+employees.push(...candidates)
+employees.push(candidates[0], candidates[1], candidates[2])
+let apple = {
+    color: "red",
+    name: "apple"
+  }
+  let cheese = {
+    color: "yellow",
+    name: "cheese"
+  }
+  let foods = [apple, cheese]
+  console.log(foods[0].name) // apple
+  console.log(foods[1].color) // yellow
+  const bag = {
+    weight: 10,
+    owner: "Larissa",
+    items: [                   // an array with objects in it!
+      {item: "Pen", count: 2},
+      {item: "Bottle", count: 1},
+      {item: "Book", count: 3}
+    ]
+  }
+  bag.items[0].item
+
+  let people = [
+      p1= {name: najeeb,age :24 , city: yarka},
+      p2= {name: afeef,age: 24, city:abosnan}
+  ]
+  console.log(people[0].name)
