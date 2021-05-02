@@ -1,4 +1,4 @@
-#results-container{
+/* #results-container{
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(3, 1fr);
@@ -11,4 +11,12 @@
   text-align: center;
   align-content: center;
   border-radius: 4px;
+} */
+
+.box{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: purple;
+  display: inline-block;
 }

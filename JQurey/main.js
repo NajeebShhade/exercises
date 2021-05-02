@@ -197,22 +197,79 @@
 // formatter.capitalizeFirst("dorothy") //should print Dorothy
 // formatter.skewerCase("blue box") //should print blue-box
 
-const Bank = function(){
-    let _value = 500
-    let deposit = function(moreMoney) {
-        _value += moreMoney
-    }
-    let showBalance = function() {
-        console.log(_value)
-    }
-    return {
-        deposit: deposit,
-        showBalance: showBalance
-    }
-}
-const bank = Bank()
-bank.deposit(200)
-bank.deposit(250)
-bank.showBalance()
+// const Bank = function(){
+//     let _value = 500
+//     let deposit = function(moreMoney) {
+//         _value += moreMoney
+//     }
+//     let showBalance = function() {
+//         console.log(_value)
+//     }
+//     return {
+//         deposit: deposit,
+//         showBalance: showBalance
+//     }
+// }
+// const bank = Bank()
+// bank.deposit(200)
+// bank.deposit(250)
+// bank.showBalance()
+// const myQuery = function (selector) {
+//     if (selector[0] == "#") {
+//         const elementId = selector.split("#")[1] //will return everything after the # in selector 
+//         return document.getElementById(elementId)
+//         }
+//     }
+    //myQuery()
+//console.log(myQuery("#search-container"))
+// const sayHi = function(){
+//     console.log("Hi!")
+//   }
+//   const $ = sayHi
+//   $("h1").css("background-color", "blue")
+//   $(".red-div").css("background-color", "red")
+//   $("li:first-child").css("background-color", "green")
+//   $("li:last-child").css("background-color", "pink")
+//   $("#brown-div").css("background-color", "brown")
+//   $("#b1").addClass("box")
+//   $('#my-input').val("terapert")
+//   const barcode = $("#barcode").data().barcode
+//   const date = $("#barcode").data().date
+//   console.log(barcode)
+//   console.log(date)
+//    $('button').on('click', function () {
+//     alert($("#my-input").val())
+//   })
+//   const clicked = function () {
+//     alert('clicked!!!!!!!!!!')
+//   }
+  
+  //  $('button').click(clicked)
+
+// const idof = $("#b1")
+// $(idof).hover(function () {
+//     $(idof).css("background-color", "blue")
+// })
 
 
+// $("#blogs").hover(function(){
+//     $(this).css("background-color","blue")
+// })
+$("button").on("click", function(){
+    $("#blogs").append("<div class='blog'>Cool blog</div>")
+  })
+  
+  $("#blogs").on("click", ".blog", function(){
+    $(".blog").text("blargh") 
+  })
+// const names = [
+//     { first: "Alex", last: "Johnson" },
+//     { first: "Byron", last: "Loveall" },
+//     { first: "Cassandra", last: "Wuthers" },
+//     { first: "Deandre", last: "Rahm" },
+//     { first: "Ellena", last: "Freeman" }
+//   ]
+  
+//   for (let name of names) {
+//     $("body").append(`<div class=human> ${name.first} - ${name.last} </div>`);
+//   }
